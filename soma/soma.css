@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.primeira {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    width: 400px;
+    height: 200px;
+
+    & h3 {
+        margin-top: 10px;
+    }
+    & input {
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    & button {
+        margin-top: 10px;
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+.segunda {
+    border: 1px solid black;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
